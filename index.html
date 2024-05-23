@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Mentor Frontend | Componente de código QR</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      body {
+        background: hsl(212, 45%, 89%);
+        font-family: "Outfit", sans-serif;
+        font-size: 15px;
+      }
+
+      .container-qr {
+        background: hsl(0, 0%, 100%);
+        padding: 1rem;
+        margin: 2rem 0 2rem 0;
+        border-radius: 35px;
+      }
+
+      .qr {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+      }
+
+      .qr img {
+        width: 100%;
+        width: 320px;
+        border-radius: 15px;
+      }
+
+      h1 {
+        color: hsl(218, 44%, 22%);
+        font-weight: 700;
+      }
+      p {
+        color: hsl(220, 15%, 55%);
+        font-weight: 400;
+      }
+
+      @media (min-width: 1024px) {
+        body {
+          background: hsl(212, 45%, 89%);
+          font-family: "Outfit", sans-serif;
+          font-size: 15px;
+        }
+
+        .container-qr {
+          background: hsl(0, 0%, 100%);
+          width: 320px;
+          padding: 1rem;
+          margin: 2rem auto; /* Modificado para centralizar */
+          border-radius: 35px;
+        }
+
+        .qr {
+          position: relative;
+          width: 320px;
+          text-align: center;
+          align-items: center;
+        }
+
+        .qr img {
+          width: 100%;
+          width: 320px;
+          border-radius: 15px;
+        }
+
+        h1 {
+          color: hsl(218, 44%, 22%);
+          font-weight: 700;
+        }
+        p {
+          color: hsl(220, 15%, 55%);
+          font-weight: 400;
+        }
+      }
+
+      .attribution {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-qr">
+      <div class="qr">
+        <img
+          src="images/image-qr-code.png"
+          alt="Image de qr code em fundo azul"
+        />
+        <h1>Improve your front-end skills by building projects</h1>
+        <p>
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Desafio do
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Mentor Frontend</a
+      >. Codificado por
+      <a href="https://github.com/AmiltonLucas" target="_blank">Amilton Lucas</a
+      >.
+    </div>
+  </body>
+</html>
